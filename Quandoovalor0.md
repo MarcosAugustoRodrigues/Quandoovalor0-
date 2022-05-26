@@ -27,3 +27,4 @@ public class ex4 {
 	}
 
 }
+fimdoalgoritmo
