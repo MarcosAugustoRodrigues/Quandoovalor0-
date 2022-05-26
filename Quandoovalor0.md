@@ -8,14 +8,14 @@ public class ex4 {
 		 *  Quando o valor 0 (zero) for lido o algoritmo deverá cessar sua execução.
 		 */
 
-		int numerosinformado,quandoOvalor = 0;
+		int numerosinformado,contadorDvalor = 0;
 		
 		System.out.println("informe um número");
 		numerosinformado=tl.nextInt();
 		
 		while(numerosinformado != 0) {
 			 if(numerosinformado > 100 && numerosinformado < 200) {
-				 quandoOvalor++;
+				 contadorDvalor++;
 				 
 				 
 			 }
@@ -23,7 +23,7 @@ public class ex4 {
 				numerosinformado=tl.nextInt();
 		}
 		
-		System.out.println("Foram digitados " + quandoOvalor + " números entre 100 e 200.");
+		System.out.println("Foram digitados " + contadorDvalor + " números entre 100 e 200.");
 	}
 
 }
